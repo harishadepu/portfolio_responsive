@@ -22,7 +22,8 @@ const Loginpage = () => {
       : { email, password };
 
     const endpoint = current === "Sign Up" ? "/signup" : "/login";
-    const url = `http://localhost:5000${endpoint}`;
+    const link = 'https://back-3qha.onrender.com'
+    const url = link + endpoint;
 
 
     try {
